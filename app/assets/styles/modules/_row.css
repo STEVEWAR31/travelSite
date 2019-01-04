@@ -5,10 +5,18 @@
     margin-right: -65px;
   }
 
+  &__gutters-large {
+    margin-right: -100px;
+  }
+
   &__gutters > div {
     padding-right: 65px;
   }
 
+  &__gutters-large > div {
+    padding-right: 100px;
+  }
+  
   &__b-margin-until-medium {
     margin-bottom: 1rem;
   }
@@ -36,6 +44,11 @@
     &__medium-8--smaller {
       float: left;
       width: 63%;
+    }
+
+    &__medium-6 {
+      float: left;
+      width: 50%;
     }
   }
 }
